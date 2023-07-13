@@ -21,7 +21,7 @@ $(document).ready(function(){
 	                    { "data": "lastName","title":"Last Name" },
 	                    { "data": "mobileNo","title":"Mobile No." },
 	                    {"title":"Action", mRender: function (data, type, row){ 	
-							var str="<a href='showFormForUpdateUser'>Update User</a>"	;
+							var str="<a href='showFormForUpdateUser?userId="+row.userId+"'>Update User</a>"	;
 							return str;
                       	}},
 	                ]

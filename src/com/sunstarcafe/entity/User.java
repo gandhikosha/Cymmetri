@@ -31,6 +31,7 @@ public class User {
 		this.mobileNo = mobileNo;
 		this.login = login;
 	}
+
 	public Integer getUserId() {
 		return userId;
 	}
